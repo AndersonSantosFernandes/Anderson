@@ -1,0 +1,29 @@
+input#texto::placeholder{
+    color: blue;
+    font-weight: bold;
+}
+input#texto{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid purple;
+    font-size: 15px;
+}
+input#texto:hover{
+    font-size: 13px;
+}
+div#main{
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: purple 3px 3px 3px;
+    text-align: justify;
+}
+p{
+    text-indent: 25px;
+    user-select: none;
+}
+p#p3{
+    user-select:unset;
+}
